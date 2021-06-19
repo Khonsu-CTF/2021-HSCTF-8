@@ -9,7 +9,7 @@ WHen you listen to the file you can here a sound repeatedly for about 3 minutes 
 
 ![Audacity](audacity.png)
 
-/!\ Know that this solution is not efficient at all but quite straightforward, which was enough for me since the audio lasts for about 3min only /!\
+/!\ Keep in mind that this solution is not efficient at all but quite straightforward, which was enough for me since the audio lasts for about 3min only /!\
 
 I didn't use any tool, didn't automate anything and didn't use any advanced features of Audacity. Since we could definitely see two cases, I assigned the continuity to a 0 and the blanks to a 1.
 
