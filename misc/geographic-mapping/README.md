@@ -20,10 +20,12 @@ Then, I used three informations to try to find this location on Google Maps :
     1. Looks like we can see the sea in the right
     2. There is a bus stop
     3. The position of the streets
-    ![Clues](images/cluesmalta.png)
+    
+![Clues](images/cluesmalta.png)
 
 After some research on Google Maps, we can find the right setup :
-    ![MapsMalta](images/mapsmalta.png)
+
+![MapsMalta](images/mapsmalta.png)
 
 You can validate the result with Google StreetView and see that's the right place. You can then click there on Google Maps and it will give you the coordinates, first part of the flag : `35.898,14.518`
 
@@ -32,9 +34,11 @@ Let's have a look to the second image now.
 ![Pict2](images/picture2.png)
 
 The start is the same with a new flag. This time, we made the assumption that it was the San Marino flag.
-    ![FlagSanMarino](images/flag2.png)
+
+![FlagSanMarino](images/flag2.png)
 
 Then, we can see some kind of funicular or cable car and there is only one in San Marino. Finally, we can see that we're where we needed to be, just get the coordinates and you've the second part of the flag : `43.938,12.446`
-    ![MapsMarino](images/mapsmarino.png)
+
+![MapsMarino](images/mapsmarino.png)
 
 `flag{35.898,14.518,43.938,12.446}`
