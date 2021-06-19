@@ -1,4 +1,4 @@
-# geographic-mapping
+# geographic-mapping (164 solves / 429 points)
 **Description :** *Find the coordinates of each location!
 
 Flag format: flag{picture1 latitude,picture1 longitude,picture2 latitude,picture2 longitude}, all latitudes and longitudes to the nearest THREE decimal digits after the period. No spaces in the flag.

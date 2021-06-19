@@ -1,4 +1,4 @@
-# glass-windows
+# glass-windows (359 solves / 311 points)
 **Description :** *I found a cool glass texture.*
 **Given files :** *glass-windows.png*
 
