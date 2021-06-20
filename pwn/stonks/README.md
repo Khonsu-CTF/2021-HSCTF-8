@@ -56,7 +56,7 @@ You can also try it locally first with `conn = process('./chal')`. In my case, a
 
 ![StonksFail](images/stonksfail.png)
 
-The problem we've here is about stack alignment. You can find plenty information about this on internet so I won't explain it here but we can solve our problem by adding an extra **ret** instruction to our payload. In order to do that, we can go back to **gdb**. Here is an example by disassemble the **vuln** function, we take the **ret** adress and add it to our payload
+The problem we've here is about stack alignment. You can find plenty information about this on internet so I won't explain it here but our problem is that here, the stack needs to be 16-byte aligned. In order to solve this issue, we can just add an extra **ret** instruction to our payload. In order to do that, we can go back to **gdb**. Here is an example by disassemble the **vuln** function, we take the **ret** adress and add it to our payload :
 
 ![Ret](images/ret.png)
 
