@@ -1,5 +1,6 @@
 # stonks (231 solves / 391 points)
 **Description :** *check out my cool stock predictor!*
+
 **Given files :** *chal*
 
 ### Write-up :

@@ -1,5 +1,6 @@
 # audio-frequency-stego (108 solves / 457 points)
 **Description :** *What a mundane song, it's just the same note repeated over and over. But could there perhaps be two different notes?*
+
 **Given files :** *audio_frequency_stego.wav*
 
 ### Write-up :

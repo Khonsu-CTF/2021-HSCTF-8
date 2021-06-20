@@ -6,6 +6,7 @@ Flag format: flag{picture1 latitude,picture1 longitude,picture2 latitude,picture
 Example format: flag{12.862,48.066,-13.47,-48.37,-13.477,-48.376}. Picture 2 has two decimal digits, while the rest have 3.
 
 The challenge author will not confirm individual locations, nor check your decimal digits. Three decimal digits gives a range of ~111 meters.*
+
 **Given files :** *picture2_1.png*, *picture2_2.png* and *picture2_3.png*
 
 ### Write-up :

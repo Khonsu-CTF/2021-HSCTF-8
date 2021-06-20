@@ -1,5 +1,6 @@
 # LSBlue (516 solves / 220 points)
 **Description :** *Orca watching is an awesome pastime of mine!*
+
 **Given files :** *lsblue.png*
 
 ### Write-up :
