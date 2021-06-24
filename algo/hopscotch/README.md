@@ -25,20 +25,23 @@ Doing this is equivalent to enumerate all the distinct permutations of a specifi
 
 So, second option : relying on mathematics. A formula exists to calculate the number of possible permutations for a given set of items without needing to actually go through all of them. So that's nice, now we'll just need to go through each possible set of items, which is a lot less than the number of permutations, and apply a formula to it.
 
-<img src="images/fact.png" style="text-align:center;margin:auto;display:flex;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Fact](images/fact.png)
 
 Where : 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X = length of the sequence
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y = number of 1 in the sequence
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Z = number of 2 in the sequence
 
 Let's check it our initial example :
 
-![FactExample](images/factExample.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![FactExample](images/factExample.png)
 
 1 + 4 + 3 = 8, we're back with the expected output. It might seem more complicated than it was earlier but it's much more efficient and if you didn't realize it already, just have a look to the results :
 
-![Results](images/results.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Results](images/results.png)
 
 As you can see, we got our flag in less than 0.4 second which is quite quick especially when we remember that we couldn't solve the problem from n = 40 or so and here we even solved it for n = 975.
 
