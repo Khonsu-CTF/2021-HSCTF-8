@@ -25,7 +25,7 @@ Doing this is equivalent to enumerate all the distinct permutations of a specifi
 
 So, second option : relying on mathematics. A formula exists to calculate the number of possible permutations for a given set of items without needing to actually go through all of them. So that's nice, now we'll just need to go through each possible set of items, which is a lot less than the number of permutations, and apply a formula to it.
 
-<img align="middle" src="images/fact.png">
+<img src="images/fact.png" style="text-align:center;margin:auto;display:flex;">
 
 Where : 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X = length of the sequence
