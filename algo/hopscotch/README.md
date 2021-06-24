@@ -9,6 +9,7 @@ This time, you'll need some maths knowledge to solve the challenge but don't wor
 First of all, what are we supposed to find here ? If we forget about the context and just rationalize the problem, given a number n betwen 1 and 1000 included, we need to find the number (modulo 10000) of distinct sequences made of 1s and 2s that once summed up are equal to n. Let's have a look to the example we've been given with n = 5.
 
 We can have the following sequences :
+
     - 11111 --> 1+1+1+1+1 = 5
     - 1112 --> 1+1+1+2 = 5
     - 1121 --> 1+1+2+1 = 5
@@ -24,7 +25,7 @@ Doing this is equivalent to enumerate all the distinct permutations of a specifi
 
 So, second option : relying on mathematics. A formula exists to calculate the number of possible permutations for a given set of items without needing to actually go through all of them. So that's nice, now we'll just need to go through each possible set of items, which is a lot less than the number of permutations, and apply a formula to it.
 
-![Fact](images/fact.png)
+<img align="middle" src="images/fact.png">
 
 Where : 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X = length of the sequence
