@@ -37,11 +37,11 @@ Where :
 
 Let's check it our initial example :
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![FactExample](images/factExample.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![FactExample](images/factExample.png)
 
 1 + 4 + 3 = 8, we're back with the expected output. It might seem more complicated than it was earlier but it's much more efficient and if you didn't realize it already, just have a look to the results :
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Results](images/results.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Results](images/results.png)
 
 As you can see, we got our flag in less than 0.4 second which is quite quick especially when we remember that we couldn't solve the problem from n = 40 or so and here we even solved it for n = 975.
 
