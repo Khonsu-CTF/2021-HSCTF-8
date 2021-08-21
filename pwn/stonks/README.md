@@ -26,7 +26,7 @@ From there, this kind of vulnerability can allow us to do multiple things so in 
 
 In the other hand, the *ai_debug* function is a lot more interesting since it starts a shell :
 
-![Shell](images/shell.png)
+![Shell](images/debug.png)
 
 So now, our plan is simple : **Smash the stack !** We're going to try to overflow the instruction pointer register in order to call **ai_debug** and open a shell that will give us access to the remote server that's probably hosting a file with a the flag or something like that. Time to use *GDB** now. First thing we do is to check the potential securities used on the binary that could be a problem.
 
@@ -54,7 +54,7 @@ Now, we have our offset (**40**) and the adress we want to aim (**0x401258**) so
 
 You can also try it locally first with `conn = process('./chal')`. In my case, and maybe yours too, the exploit was working fine like that locally but not on the remote server which is probably running a different environment. Then we got an EOF that stops the connection and prevents us to interact with the shell we opened as you can see below.
 
-![StonksFail](images/stonksfail.png)
+![StonksFail](images/stonksFail.png)
 
 The problem we've here is about stack alignment. You can find plenty information about this on internet so I won't explain it here but our problem is that here, the stack needs to be 16-byte aligned. In order to solve this issue, we can just add an extra **ret** instruction to our payload. In order to do that, we can go back to **gdb**. Here is an example by disassemble the **vuln** function, we take the **ret** adress and add it to our payload :
 
